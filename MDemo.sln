@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{D83762CB-A168-44C6-814F-09D57855DA12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientStorage", "ClientStorage\ClientStorage.csproj", "{8377F0B7-A33D-40CA-9C28-C4B509A98B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{D207B8D0-C5D3-4B34-9341-6788E5475B7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{D83762CB-A168-44C6-814F-09D57855DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83762CB-A168-44C6-814F-09D57855DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83762CB-A168-44C6-814F-09D57855DA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8377F0B7-A33D-40CA-9C28-C4B509A98B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8377F0B7-A33D-40CA-9C28-C4B509A98B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8377F0B7-A33D-40CA-9C28-C4B509A98B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8377F0B7-A33D-40CA-9C28-C4B509A98B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D207B8D0-C5D3-4B34-9341-6788E5475B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D207B8D0-C5D3-4B34-9341-6788E5475B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D207B8D0-C5D3-4B34-9341-6788E5475B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D207B8D0-C5D3-4B34-9341-6788E5475B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
