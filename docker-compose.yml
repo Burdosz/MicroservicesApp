@@ -5,20 +5,30 @@ services:
   NotificationService:
     build: ./NotificationService
     image: microservices:notification
+    networks:
+      - api
     ports:
       - "80:80"
     depends_on:
-      - Library
+      - library
       - ClientStorage
 
-  Library:
+  library:
     build: ./Library
     image: microservices:library
+    networks:
+      - api
     ports:
       - "81:80"
 
   ClientStorage:
     build: ./ClientStorage
     image: microservices:clients
+    networks:
+      - api
     ports:
       - "82:80"
+      
+networks:    
+  api:
+    driver: bridge
